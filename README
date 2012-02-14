@@ -1,0 +1,6 @@
+g++     helloworld.cpp   -o helloworld
+
+OR
+
+make helloworld
+
