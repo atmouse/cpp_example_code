@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include "time.h"
 
+using namespace std;
+
 //constructor
-Time::Time()    {
-    hour = minute = second = 0;
-}
+//Time::Time()    {
+//    hour = minute = second = 0;
+//}
 
 //constructor
 Time::Time(int hr, int min, int sec)    {
     setTime(hr, min, sec);
+}
+
+Time::~Time()   {
+
 }
 
 //Time member function

@@ -8,11 +8,11 @@ class Time  {
         int second;
 
     public:
-         Time();
-         Time(int hr, int min, int sec);
+        //Time();
+        Time(int hr = 0, int min = 0, int sec = 0);
         ~Time();
 
-        void setTime(int hr, int min, int sec):
+        void setTime(int hr = 0, int min = 0, int sec = 0);
         //void printMilitary();
         void printStandard();
 };
